@@ -1,7 +1,6 @@
 const { defineConfig } = require('@vue/cli-service');
 const webpack = require('webpack');
 const path = require('path');
-const Dotenv = require('dotenv-webpack');
 
 module.exports = defineConfig({
   publicPath: '/',
@@ -13,9 +12,7 @@ module.exports = defineConfig({
     }
   },
   configureWebpack: {
-    plugins: [
-      new Dotenv()
-    ],
+    plugins: [],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src')
