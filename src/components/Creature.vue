@@ -19,20 +19,21 @@ export default {
 <style scoped>
   .creature {
       background-color: darkgoldenrod;
-      width: 10vw;
-      height: 14vw;
+      width: 7vw;
+      height: 10vw;
       font-size: 2vw;
-      padding: 5px
   }
   .name {
       text-align: center;
   }
   .horizontal {
-      margin-top: 70%;
+      margin-top: 40%;
+      margin-left: 10%;
+      margin-right: 10%;
       display: flex;
       /*justify-content: space-between;*/
       align-items: stretch;
-      height: 20%;
+      height: 25%;
   }
   .square {
       aspect-ratio: 1 / 1;
