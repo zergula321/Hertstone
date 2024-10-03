@@ -19,7 +19,7 @@ export default {
       background-color: moccasin;
       height: 20vw;
       width: 14vw;
-      font-size: 2vw;
+      font-size: 1.5vw;
       padding: 5px
   }
 </style>

@@ -14,6 +14,16 @@ export default {
     name: "Field",
     components: {Creature},
     props: ["creatures"],
+    data() {
+        return {
+            creatures : [
+                {name: "Илюха еретик", attack: 2, defence: 2},
+                {name: "Илюха фанатик", attack: 2, defence: 2},
+                {name: "Злой клоун", attack: 2, defence: 2},
+                {name: "Великая Панда", attack: 2, defence: 2},
+            ]
+        }
+    }
 }
 </script>
 

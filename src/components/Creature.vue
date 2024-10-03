@@ -19,15 +19,16 @@ export default {
 <style scoped>
   .creature {
       background-color: darkgoldenrod;
-      width: 7vw;
+      width: 7.5vw;
       height: 10vw;
-      font-size: 2vw;
+      font-size: 1.7vw;
   }
   .name {
       text-align: center;
+      margin-top: 2px;
   }
   .horizontal {
-      margin-top: 40%;
+      margin-top: 10%;
       margin-left: 10%;
       margin-right: 10%;
       display: flex;
