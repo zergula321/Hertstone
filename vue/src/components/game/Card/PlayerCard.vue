@@ -1,6 +1,7 @@
 <template>
     <div
         class="card"
+        @click="clickCard"
     >
         <p class="card__text">{{cardStruct.name}}</p>
         <p class="card__text">цена: {{cardStruct.cost}}</p>
@@ -11,6 +12,7 @@
 
 <script>
 import { Cards } from "@/gameLogic/cards"
+import game from "@/gameLogic/engine"
 
 export default {
     name: "PlayerCard",
@@ -20,6 +22,11 @@ export default {
             return Cards[this.cardId]
         },
     },
+    methods: {
+        clickCard(){
+          game.activateCard(this.$vnode.key)
+        },
+    }
 }
 </script>
 
